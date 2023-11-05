@@ -2,6 +2,8 @@
 
 This Python script fetches hourly weather data for a specific location using the OpenWeatherMap API and sends weather updates to a Telegram chat. It calculates the average temperature for the next 12 hours and sends messages based on whether the average temperature is above or below 15°C.
 
+The program is made to run for central america time.
+
 ## Prerequisites
 
 - Python 3.x
