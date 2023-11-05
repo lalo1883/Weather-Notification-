@@ -1,21 +1,29 @@
-Weather Bot using OpenWeatherMap API and Telegram
+# Weather Bot using OpenWeatherMap API and Telegram
+
 This Python script fetches hourly weather data for a specific location using the OpenWeatherMap API and sends weather updates to a Telegram chat. It calculates the average temperature for the next 12 hours and sends messages based on whether the average temperature is above or below 15°C.
 
-Prerequisites
-Python 3.x
-requests library
-python-telegram-bot library
-Setup Instructions
-OpenWeatherMap API Key:
+## Prerequisites
 
-Obtain your OpenWeatherMap API key by signing up on their website: OpenWeatherMap API.
-Replace 'YOUR API KEY FOR OPEN WEATHER' with your actual API key in the script.
-Telegram Bot Token:
+- Python 3.x
+- `requests` library
+- `python-telegram-bot` library
 
-Create a new bot on Telegram and obtain your bot token. You can follow the instructions here: Telegram Bot API.
-Replace 'YOUR TELEGRAM TOKEN' with your actual bot token in the script.
-Telegram Chat ID:
+## Setup Instructions
 
-Replace 'YOUR_CHAT_ID' with the chat ID of the Telegram chat where you want to send weather updates. You can obtain your chat ID by talking to the "Get ID Bot" on Telegram.
-How to Run
+### OpenWeatherMap API Key:
+
+1. Obtain your OpenWeatherMap API key by signing up on their website: [OpenWeatherMap API](https://openweathermap.org/api).
+2. Replace `'YOUR API KEY FOR OPEN WEATHER'` with your actual API key in the script.
+
+### Telegram Bot Token:
+
+1. Create a new bot on Telegram and obtain your bot token. You can follow the instructions here: [Telegram Bot API](https://core.telegram.org/bots#botfather).
+2. Replace `'YOUR TELEGRAM TOKEN'` with your actual bot token in the script.
+
+### Telegram Chat ID:
+
+1. Replace `'YOUR_CHAT_ID'` with the chat ID of the Telegram chat where you want to send weather updates. You can obtain your chat ID by talking to the "Get ID Bot" on Telegram.
+
+## How to Run
+
 Run the Python script, and it will fetch the hourly weather data, calculate the average temperature, and send weather updates to the specified Telegram chat.
